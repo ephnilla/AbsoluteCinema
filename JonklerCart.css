@@ -1,1 +1,8 @@
-
+.image-border img
+  {
+   border: 25px solid #000;
+   border-radius 10px;
+  }
+   .center-image{text-align: center;}
+   .center-text{text-align: center;}
+   .center-image img{display: inline-block;}
