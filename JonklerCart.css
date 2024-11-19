@@ -15,7 +15,7 @@ border-radius 10px;
 {
   width: 100px;
   height: 100px;
-  background-color: red;
+  src="jonklergifs/jokerclap.gif";
   position: relative;
   animation: myfirst 5s linear 2s infinite alternate;
 }
