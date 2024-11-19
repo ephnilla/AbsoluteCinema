@@ -11,3 +11,15 @@ border-radius 10px;
 
 .title{font-size:125px;}
 .button1{background-color:#04AA6D;}
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
