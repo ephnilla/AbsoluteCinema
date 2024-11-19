@@ -13,8 +13,8 @@ border-radius 10px;
 .button1{background-color:#04AA6D;}
 .animation 
 {
-  width: 100px;
-  height: 100px;
+  width: 1000px;
+  height: auto;
   background-image: url("jonklergifs/jokerclap.gif");
   position: relative;
   animation: myfirst 5s linear 2s infinite alternate;
