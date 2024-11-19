@@ -1,12 +1,13 @@
 .image-border img
-  {
-   border: 25px solid #000;
-   border-radius 10px;
-  }
-   .center-image{text-align: center;}
-   .center-text{text-align: center;}
-   .center-image img{display: inline-block;}
+{
+border: 25px solid #000;
+border-radius 10px;
+}
+.center-image{text-align: center;}
+.center-text{text-align: center;}
+.center-image img{display: inline-block;}
 .text-colour{color:#22ff00;}
 .text-stroke{text-stroke: 4px #000000;}
 
 .title{font-size:125px;}
+.button1{background-color:#04AA6D;}
