@@ -15,15 +15,15 @@ border-radius 10px;
 {
   width: 100px;
   height: 100px;
-  src="jonklergifs/jokerclap.gif";
+  background-image: url("jonklergifs/jokerclap.gif");
   position: relative;
   animation: myfirst 5s linear 2s infinite alternate;
 }
 
 @keyframes myfirst {
-  0%   {src="jonklergifs/jokerclap.gif"; left:0px; top:0px;}
-  25%  {src="jonklergifs/jonklercart.gif"; left:200px; top:0px;}
-  50%  {src="jonklergifs/download.gif"; left:200px; top:200px;}
-  75%  {src="jonklergifs/jonkler-live-reaction.gif"; left:0px; top:200px;}
-  100% {src="jonklergifs/giphy.gif"; left:0px; top:0px;}
+  0%   {background-image: url("jonklergifs/jokerclap.gif"); left:0px; top:0px;}
+  25%  {background-image: url("jonklergifs/jonklercart.gif"); left:200px; top:0px;}
+  50%  {background-image: url("jonklergifs/download.gif"); left:200px; top:200px;}
+  75%  {background-image: url("jonklergifs/jonkler-live-reaction.gif"); left:0px; top:200px;}
+  100% {background-image:url("jonklergifs/giphy.gif"); left:0px; top:0px;}
 }
