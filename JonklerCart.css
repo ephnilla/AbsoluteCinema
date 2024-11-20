@@ -21,19 +21,19 @@ border-radius 10px;
 
 @keyframes myfirst {
   0%   {
-    transform:translateX(200px);
+    transform:translateX(900px);
     transform:rotate(0deg);         
   }
   25%  {
-    transform:translateY(-200px);
+    transform:translateY(-1200px);
     transform:rotate(90deg)
   }
   50%  {
-    transform:translateX(-200px);
+    transform:translateX(-2300px);
     transform:rotate(180deg);
   }
   75%  {
-    transform:translateY(200px);
+    transform:translateY(3600px);
     transform:rotate(270deg);
   }
   100% {
