@@ -21,9 +21,29 @@ border-radius 10px;
 }
 
 @keyframes myfirst {
-  0%   {background-image: url("jonklergifs/jokerclap.gif"); left:0px; top:0px;}
-  25%  {background-image: url("jonklergifs/jonklercart.gif"); left:200px; top:0px;}
-  50%  {background-image: url("jonklergifs/download.gif"); left:200px; top:200px;}
-  75%  {background-image: url("jonklergifs/jonkler-live-reaction.gif"); left:0px; top:200px;}
-  100% {background-image: url("jonklergifs/giphy.gif"); left:0px; top:0px;}
+  0%   {
+    background-image: url("jonklergifs/jokerclap.gif"); 
+    left:0px; top:0px;
+    transform:rotate(0deg);         
+  }
+  25%  {
+    background-image: url("jonklergifs/jonklercart.gif");
+    left:200px; top:0px;
+    transform:rotate(90deg)
+  }
+  50%  {
+    background-image: url("jonklergifs/download.gif");
+    left:200px; top:200px;
+    transform:rotate(180deg);
+  }
+  75%  {
+    background-image: url("jonklergifs/jonkler-live-reaction.gif");
+    left:0px; top:200px;
+    transform:rotate(270deg);
+  }
+  100% {
+    background-image: url("jonklergifs/giphy.gif");
+    left:0px; top:0px;
+    transform:rotate(360deg);
+  }
 }
