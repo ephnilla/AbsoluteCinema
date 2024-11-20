@@ -14,7 +14,7 @@ border-radius 10px;
 .animation 
 {
   width: 1000px;
-  height: auto;
+  height: 1000px;
   background-image: url("jonklergifs/jokerclap.gif");
   position: relative;
   animation: myfirst 5s linear 2s infinite alternate;
