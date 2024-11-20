@@ -10,7 +10,7 @@ border-radius 10px;
 .text-stroke{text-stroke: 4px #000000;}
 
 .title{font-size:125px;}
-.button1{background-color:#04AA6D;}
+.button1{background-color:#04AA6D width:"500px" height:"500px";}
 .animation 
 {
   width: 1000px;
